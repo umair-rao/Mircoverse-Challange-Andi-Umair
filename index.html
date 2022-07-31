@@ -6,28 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <h1 id="title">freeCodeCamp Survey Form</h1>
-    <p id="description">Thank you for taking the time to help us improve the platform</p>
-    <form id="survey-form">
-      <label id="name-label">Name</label>
+<h1 id="title">freeCodeCamp Survey Form</h1>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+<form id="survey-form">
+  <label id="name-label">Name</label>
 <input id="name" type="text" placeholder="Name here" required>
-
-<label id="email-labels">Email</label>
-      <input id="email" type="email" name="email" placeholders="Email here" required>
-
-<labei id="number-label">Age</label>
-      <input id="number" type="number" name="number" max="100" min="18" placeholder="Age here"  required>
-<select id="dropdown">
-    <option value="Student">Student</option>
-    <option value="Full Time Job">Full Time Job</option>
+<br>
+<label id="email-label">Email</label>
+  <input id="email" type="email" name="email" placeholder="Email here" required>
+<br>
+<br><label id="number-label">Age</label>
+  <input id="number" type="number" name="number" max="100" min="18" placeholder="Age here"  required>
+  <p>Would you recommend freeCodeCamp to a friend?</p>
+ <select id="dropdown">
+<option value="Student">Student</option>
+<option value="Full Time Job">Full Time Job</option>
 </select>
-<p>Would you recommend freeCodeCamp to a friend?</p>
-<input type="radio" id="Definitely" name="Firend" value="Definitely">
-<label for="definitely">Definitely</label><br>
-<input type="radio" id="maybe" name="Firend" value="Maybe">
-<label for="Maybe">Maybe</label><br>
-    </form>
+
+  <input type="radio" id="Definitely" name="Firend" value="Definitely">
+  <label for="definitely">Definitely</label><br>
+  <input type="radio" id="maybe" name="Firend" value="Maybe">
+  <label for="Maybe">Maybe</label><br> 
+ 
+  <p>What would you like to see improved?</p>
+
+  <div>
+  <input type="checkbox" name="Challenges" value="challenge">
+  <label for="challeges">Challenges</label><br>
+ <input type="checkbox" name="videos" value="video">
+ <label for="videos">Videos</label><br>
+
+</div>
+<br>
+Additional comments 
+<textarea name="Additional comments" id="Comments" cols="30" rows="10">Enter your comment here...</textarea>
+<br>
+<button id="submit">Submit</button>  
+</form>
 
 </body>
+    
+
 </html>
